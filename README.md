@@ -1,9 +1,9 @@
-```markdown
+
 # Custom Bridge Network with Egress Networking
 
 This guide demonstrates how to set up a custom bridge network, configure network namespaces, enable egress traffic to an external network (e.g., Google's nameserver `8.8.8.8`), and ensure proper network isolation using `iptables` for NAT.
 
----
+
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ This guide demonstrates how to set up a custom bridge network, configure network
 - Basic understanding of `ip`, `iptables`, and namespaces.
 - Ensure `iproute2` and `iptables` are installed.
 
----
+
 
 ## Steps
 
